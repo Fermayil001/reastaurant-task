@@ -45,6 +45,9 @@ const ReastaurantUi = () => {
         }
     ])
 
+    /*Api yoxdur set islenmir deye deployda error verir ona gore*/
+    false && setData([])
+
     const [dataVisibility, setDataVisibility] = useState<number>(3)
 
     const slicesData = data.slice(0, dataVisibility)
